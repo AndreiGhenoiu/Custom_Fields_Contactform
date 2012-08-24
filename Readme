@@ -1,0 +1,1 @@
+This is a Drupal 7 module that would allow a user to add extra fields to the site contact form. No gui to add fields, just edit the contact_add_fields.module file based on the comments.
