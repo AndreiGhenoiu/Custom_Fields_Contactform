@@ -23,7 +23,7 @@ function contact_add_fields_form_contact_site_form_alter(&$form, &$form_state, $
 		'#required' => TRUE,
 		);
 		
-	$order = array('name', 'mail', 'subject','location', 'cid', 'message', 'copy', 		'actions');
+	$order = array('name', 'mail', 'subject','location', 'cid', 'message', 'copy', 'actions');
 
 	foreach($order as $key => $field) {
 		$form[$field]['#weight'] = $key;
